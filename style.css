@@ -1,0 +1,461 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+.top-header{
+    background-color:#BED33A;
+    width: 100%;
+ 
+
+}
+.iconul{
+    
+    display: flex;
+    flex-direction: row;
+} 
+.iconul li{
+     margin: 0px 20px;
+    list-style: none;
+}
+.iconul li a{
+    text-decoration: none;
+}
+.iconul .fa-brands{
+    color:black;
+    font-size: x-large;
+}
+.navbar-nav{
+    padding-left: 50px;
+}
+.navbar-nav li{
+    margin: 0px 8px;
+}
+ .navbar-nav li a{
+    color: white;
+    font-size: 20px;
+} 
+
+
+
+.menu-header{
+    background-color: #86A30B;
+}
+.menu-header ul li a:hover{
+    background-color:#fff ;
+    color: #7F9D07;
+    border-radius: 5px;
+
+} 
+@media(max-width:800px){
+    .iconul{
+        width: 100% !important;
+       padding-left: 0px;
+
+    }
+}
+
+@media(max-width:320px){
+    .iconul li{
+        
+       margin: 0px 15px;
+
+    }
+}
+@media (max-width:992px){
+    .iconul{
+        width: 100% !important ;
+        justify-content: center;
+    }
+}
+
+/* marquee-section */
+#marquee-section .sticker{
+    width: 80px;
+    height: 80px;
+    /* position: relative; */
+    position: absolute;
+    top: -9px;
+    left: -8px;
+    
+}
+#marquee-section a{
+    color:#7F9D07;
+    text-decoration: none;
+}
+
+/* Home section  */
+#home-section{
+    background-image: url(./assets/images/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100vh;
+    width: 100%;
+    height: 100vh;
+
+}
+#home-section .row{
+    margin-right: 0% !important;
+}
+#home-section h1{
+    position: relative;
+    top: 60%;
+}
+#home-section .property-word{
+    color: red;
+    font-size: 50px;
+}
+#home-section .dreams-word{
+    color: white;
+    font-size: 50px;
+}
+
+#home-section h5{
+    position: relative;
+    top: 100%;
+    font-variant: small-caps;
+    text-align: justify;
+    padding-right: 80px;
+}
+
+#home-section .buy-word{
+    color: white;
+    font-size: 25px;
+}
+#home-section .sell-word{
+    color: red;
+    font-size: 25px;
+}
+#home-section .nintytwo-word{
+   color: white; 
+}
+#home-section .project-word{
+    color: #831943;
+}
+
+@media (max-width:1200px){
+    #home-section h1{
+        top: 20%;
+    }
+}
+@media(max-width:1200px){
+    #home-section h5{
+        top: 50%;
+    }
+}
+@media(max-width:880px){
+    #home-section h5{
+        top: 30%;
+        padding: 0px 10px;
+    }
+}
+@media(max-width:768px){
+    #home-section{
+        text-align: center;
+    }
+}
+@media(max-width:768px){
+    #home-section .col-md-6{
+       padding: 0px 30px;
+    }
+}
+ @media(max-width:350px){
+    #home-section{
+        background-image: none !important;
+        background-color: #86A30B;
+        box-sizing: border-box;
+        height: 100%;
+    
+    } 
+}
+
+@media (max-width:350px){
+    #home-section h5{
+        position: relative;
+        top: 10%;
+        font-variant: small-caps;
+        text-align: center;
+        padding: 0px 10px;
+    }
+}
+@media(max-width:350px){
+    #home-section h1{
+        top: 5%;
+        font-size: x-large;
+    
+    }
+}
+@media(max-width:350px){
+    #home-section{
+        height: 500px;
+    }
+}
+
+/* banner search styling  start*/
+.banner-search {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-color: #7F9D07;
+    color: #fff;
+    padding: 20px 0 10px 0;
+    font-size: 16px;
+}
+.banner-search .sale-word{
+    color: red;
+}
+.banner-search .rent-word{
+    color: black;
+}
+#search-banner button{
+    background-color: white;
+    color: #86A30B;
+}
+#search-banner button:hover{
+    background-color:#B4B4B4;
+     color:white;
+    
+}
+#loginpop .btn{
+    margin-top: 14.5px;
+}
+#search-banner a{
+    text-decoration: none;
+    color: #7F9D07;
+}
+#search-banner button a:hover{
+    background-color:#B4B4B4;
+     color:white;
+    
+}
+/* banner search styling  End*/
+
+
+
+/* featured-propery styling Start */
+
+#featured-property{
+    box-shadow: rgba(126, 156, 8,0.99) 0px 30px 60px -12px inset, rgba(126,156,8, 0.99) 0px 18px 36px -18px ;
+    
+}
+  
+.listing-detail{margin-bottom: 30px;}
+.listing-detail span{color: #fff; 
+                     width: 25px; 
+                     height: 25px; 
+                     background-color: #555;
+                     display: inline-block;
+                     border-radius:25px; 
+                     text-align: center;
+                     line-height: 26px; 
+                     font-size: 14px;
+                     cursor: crosshair;
+                   }
+.listing-detail span:hover{
+                     background: #72b70f;
+                   }
+.card-title{
+             color: #72b70f;        
+}                   
+
+#featured-property .word-price{
+ color: #72b70f;
+}
+#featured-property .view-detail-btn{
+ background-color: #72b70f;
+ color: white;
+ width: 100%;
+ height: 35px;
+}
+/* featured-propery styling End */
+
+
+
+/* Projects styling start */
+
+.projects-heading{
+  color: #72b70f;
+  text-decoration: underline;
+}
+
+.text-side .title{
+    position: absolute;
+    left: 16%;
+    top: 0%;
+
+}
+.text-side .no-margin{
+    line-height: 24px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #e85451;
+}
+#projects .text-side button {
+    width: 140px;
+    background-color:rgb(126, 156, 8);
+    border-radius: 10px;
+    border: 2px solid black;
+    color: #fff;
+    
+}
+#projects .text-side button a{
+    text-decoration:  none;
+    color:white;
+}
+#projects .text-side button:hover{
+    background-color: white;
+    color: #72b70f ;
+}
+#projects .text-side button a:hover{
+    color: #72b70f;
+    
+}
+
+
+.projects-images{
+    height: 185px;
+    width: 100%;
+}
+@media(max-width:400px){
+#projects .text-side .title{
+        display: block;
+        position: initial;
+    }
+}
+
+/* currant projects right side */
+
+#project-shortcut{
+    background-color:rgba(34, 156, 34, 0.7);
+    box-sizing: border-box;
+}
+.project-shortcut{
+    background-color:#72b70f;
+    box-sizing: border-box;
+    margin-right: -15px;
+    border-top-right-radius: 50px;
+}
+
+#project-shortcut ul li{
+    list-style: none;
+
+}
+#project-shortcut ul li a{
+    text-decoration: none;
+    margin-top: 10px;
+    color: white;
+    
+    
+}
+#project-shortcut .location-color{
+    color: black;
+}
+
+/* Projects styling End */
+
+#popular-location .m-auto {
+    color: #72b70f;
+    text-decoration: underline;
+}
+
+.houses li{
+    line-height: 30px;
+}
+.houses h6{
+    color: #72b70f;
+}
+.houses mb-1{
+    margin-bottom: 1px;
+}
+
+
+
+
+/* footer styling start */
+#footer{
+    background-color: #86A30B;
+    color: #fff;
+}
+
+
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+
+
+
+#footer {
+    background: #86A30B !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+#bottom-footer{
+    background-color: #647a01;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+

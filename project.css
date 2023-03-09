@@ -1,0 +1,45 @@
+ 
+
+#Current-Projects-Page-header .price {
+
+    color: red;    
+    font-size: x-large;
+    
+} 
+#Current-Projects-Page-header .call-btn button{
+    text-decoration: none;
+    color: white;
+    background-color: #72B70F;
+    border: 1px solid black;
+
+}
+/* #Current-Projects-Page-header .call-btn button{
+    position: relative;
+    left: 50%;
+} */
+#Current-Projects-Page-header .call-btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+#Current-Projects-Page-header .call-btn button:hover{
+    color: #72B70F;
+    background-color: white;
+}
+#Current-Projects-Page-header .call-btn a:hover{
+    color: #72B70F;
+}
+
+#project-description h2{
+         color: #72B70F;
+}
+#project-description p{
+    text-align: justify;
+}
+#project-description ul {
+    padding-left: 0%;
+    margin-top: 20px;
+}
+#project-description ul li{
+    list-style: none;
+}
